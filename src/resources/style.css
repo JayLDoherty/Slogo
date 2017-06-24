@@ -1,0 +1,47 @@
+.root{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Helvetica";
+    -fx-base: #2C3E50;
+    -fx-background: #2C3E50;
+    -fx-focus-color: transparent;
+}
+
+.text-area {
+	-fx-font-family: Courier;
+	-fx-font-size: 16;
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+    -fx-padding: 10px;
+}
+
+.text-area:focused .content {
+    -fx-background-color: white;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #2C3E50;
+}
+
+.panel-scroll-pane {
+    -fx-background-insets: 0;
+	-fx-background-color:transparent;
+}
+
+.minimize, .tab-button {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.tab-button:hover, .minimize:hover {
+    -fx-background-color: lightgray;
+}
+
+.split-pane > .split-pane-divider {  
+    -fx-padding: 0 2 0 2;  
+} 
